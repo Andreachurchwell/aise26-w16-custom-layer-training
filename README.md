@@ -10,7 +10,7 @@ This repository demonstrates:
 The goal of this project is educational: to understand how custom layers work, how training flows end-to-end, and how to make experiments reproducible and easy to inspect.
 
 ## 📁 Project Structure
-
+```
 aise26-w16-custom-layer-training/
 ├── layers.py               # Custom LearnedAffine layer
 ├── train.py                # Training loop (3 epochs on FashionMNIST)
@@ -25,19 +25,11 @@ aise26-w16-custom-layer-training/
 ├── repro.md                # Exact steps to reproduce results
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 🔬 Custom Layer: LearnedAffine
 The custom layer implements a simple learned affine transformation:
-
-𝑦
-=
-𝑥
-⋅
-𝛾
-+
-𝛽
-y=x⋅γ+β
+- y = x * gamma + beta
 
 Where:
 - gamma and beta are trainable parameters
