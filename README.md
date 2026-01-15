@@ -18,9 +18,9 @@ aise26-w16-custom-layer-training/
 ├── tests/
 │   └── test_layers.py      # Sanity check for custom layer
 ├── figures/                # Saved training curves
-│   ├── loss_curve.png
-│   ├── accuracy_curve.png
-│   └── lr_curve.png
+│   ├── accuracy_over_epochs.png
+│   ├── learning_rate.png
+│   └── loss_over_epochs.png
 ├── metrics.md              # What I tried, what worked, what I'd change
 ├── repro.md                # Exact steps to reproduce results
 ├── requirements.txt
@@ -60,9 +60,14 @@ Training and evaluation are properly separated using:
 - model.eval() and torch.no_grad() during validation
 
 ## 📈 Training Curves
-- Loss
-- Accuracy
-- Learning Rate
+### Loss
+![Loss Curve](figures/loss_over_epochs.png)
+
+### Accuracy
+![Accuracy Curve](figures/accuracy_over_epochs.png)
+
+### Learning Rate
+![Learning Rate](figures/learning_rate.png)
 
 ## 🔁 Reproducibility
 - This project is fully reproducible.
