@@ -9,6 +9,8 @@ This repository demonstrates:
 
 The goal of this project is educational: to understand how custom layers work, how training flows end-to-end, and how to make experiments reproducible and easy to inspect.
 
+📓 **Notebook walkthrough:** The file `learn_custom_layer.ipynb` contains a detailed, step-by-step walkthrough of the project, including intermediate checks, explanations, and reasoning behind design choices.
+
 ## 📁 Project Structure
 ```
 aise26-w16-custom-layer-training/
