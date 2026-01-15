@@ -1,0 +1,7 @@
+Metrics & Reflection
+
+For this assignment, my main goal was not just to “get it working,” but to actually understand what was happening at each step. I intentionally went very slowly and built the project line by line, using the notebook to walk through the flow of a custom layer, how parameters are registered, and how the training loop fits together. I also spent time inspecting shapes, outputs, and parameters to make sure I understood how data was moving through the model.
+
+What worked well for me was keeping everything small and simple. Training for only three epochs on FashionMNIST made it easy to run experiments quickly and see results without waiting a long time or getting overwhelmed. Writing a sanity test for the custom layer helped reinforce what the layer was actually doing and gave me confidence that it was behaving correctly before plugging it into the model. Saving and visualizing the training curves also helped me connect the numeric metrics to the learning process.
+
+After the past week of classes, I realized how lost I felt around neural networks and PyTorch concepts, so I’ve been intentionally watching more intro-level videos and revisiting fundamentals alongside this assignment. If I were to extend this project, I would try a different scheduler like OneCycleLR, train for more epochs, and experiment with adding or removing components to see how they affect convergence and performance.
